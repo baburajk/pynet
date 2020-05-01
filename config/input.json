@@ -1,0 +1,11 @@
+{
+  "cloud": {
+    "aws": {
+      "ip_ranges": "ip_ranges.json"
+    },
+    "gcp": {
+      "ip_ranges": "ip_ranges.txt"
+    }
+  }
+}
+
