@@ -1,6 +1,6 @@
 import argparse
 
-class netadmin
+class Netadmin:
     def __init__(self):
         pass
 
@@ -9,6 +9,9 @@ class netadmin
 
 def main(self):
     cli = argparse.ArgumentParser('NETADMIN MODULE')
+    cli.add_argument(dest='--config',default='./config/input.json')
+    cli.parse_args()
+
     pass
 
 if "__name__" == "__main__":
